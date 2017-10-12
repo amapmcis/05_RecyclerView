@@ -27,7 +27,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Vi
         }
     }
 
-    // Class constructor
+    // Class constructor 
     public MyRecyclerAdapter(ArrayList<Student> list) {
         this.listOfStudents = list;
     }
@@ -42,7 +42,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Vi
         listItemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Show number of item in the list
+                // Show number of the item in the list
                 Toast.makeText(parent.getContext(),
                         String.valueOf(viewHolder.getAdapterPosition()),
                         Toast.LENGTH_SHORT).show();
