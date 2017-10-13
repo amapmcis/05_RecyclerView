@@ -27,7 +27,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Vi
         }
     }
 
-    // Class constructor 
+    // Class constructor
     public MyRecyclerAdapter(ArrayList<Student> list) {
         this.listOfStudents = list;
     }
